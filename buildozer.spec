@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,cfg,exe,bat,fish,nu,ps1
+source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.12.2
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
